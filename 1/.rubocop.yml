@@ -5,3 +5,7 @@ Style/AsciiComments:
 # 数値をリテラルを3桁区切りで_で区切らなくて良い
 Style/NumericLiterals:
     Enabled: false
+
+# "でも'でもどっちでもいい
+Style/StringLiterals:
+    Enabled: false
