@@ -11,8 +11,14 @@ class HelloWorld
 end
 
 bob = HelloWorld.new("Bob")
-# alice = HelloWorld.new("Alice")
-# ruby = HelloWorld.new
+alice = HelloWorld.new("Alice")
+ruby = HelloWorld.new
 
 bob.hello
 p bob.name
+
+alice.hello
+p alice.name
+
+ruby.hello
+p ruby.name
